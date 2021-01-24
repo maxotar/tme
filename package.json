@@ -1,0 +1,31 @@
+{
+  "name": "tme",
+  "version": "1.0.0",
+  "description": "Testing framework for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxotar/tme.git"
+  },
+  "keywords": [
+    "test",
+    "framework",
+    "node"
+  ],
+  "author": "Max Tarver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxotar/tme/issues"
+  },
+  "homepage": "https://github.com/maxotar/tme#readme",
+  "bin": {
+    "tme": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "jsdom": "^16.4.0"
+  }
+}
